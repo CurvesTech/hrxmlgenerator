@@ -8,5 +8,8 @@
             "email": "mubashir.abbas@outlook.com"
         }
     ],
+    "autoload":{
+      "psr-4":{"xmlobjects\\":"xmlobjects/"}
+    },
     "require": {}
 }

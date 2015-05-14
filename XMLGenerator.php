@@ -202,14 +202,29 @@ class XMLGenerator
             $FormattedPositionDescriptions[$index]->appendChild($Name);
             $FormattedPositionDescriptions[$index]->appendChild($Value);
         }
+        //Create the Competencies
+        $Competencies = [];
+        foreach($position_detail->getCompetencies() as $index=>$competency) {
+            /*
+             * @var $competency xmlobjects/Competency
+             */
+            $Competencies[$index] = $this->document->createElement('Competency');
+            $Name = $this->document->createAttribute('Name');
+            $Name->value = $competency->getName();
+            //add the name to competency.
+            $Competencies[$index]->appendChild($competency);
 
+        }
         //Add the Position Title
         $PositionDetail->appendChild($PositionTitle);
         //Add the FormattedJobDescriptions
         foreach($FormattedPositionDescriptions as $description) {
             $PositionDetail->appendChild($description);
         }
-
+        //Add the Competencies
+        foreach($Competencies as $competency) {
+            $PositionDetail->appendChild($competency);
+        }
         //add  to parent.
         $parent->appendChild($PositionDetail);
     }

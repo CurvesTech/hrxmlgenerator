@@ -20,6 +20,25 @@ class PositionDetail {
     private $FormattedJobDescriptions;
 
     /**
+     * @return array
+     */
+    public function getCompetencies()
+    {
+        return $this->competencies;
+    }
+
+    /**
+     * @param array $competencies
+     */
+    public function setCompetencies($competencies)
+    {
+        $this->competencies = $competencies;
+    }
+    /**
+     * @var array
+     */
+    private $competencies;
+    /**
      * @return string
      */
     public function getPositionTitle()
