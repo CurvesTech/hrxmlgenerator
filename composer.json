@@ -1,0 +1,12 @@
+{
+    "name": "Mubashir/hrxmlgenerator",
+    "description": "This is an HR-XML generator.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mubashir Abbas",
+            "email": "mubashir.abbas@outlook.com"
+        }
+    ],
+    "require": {}
+}
