@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-require 'XMLGenerator.php';
+
 use xmlobjects\PositionDetail;
 use xmlobjects\Competency;
 use xmlobjects\FormattedJobDescription;

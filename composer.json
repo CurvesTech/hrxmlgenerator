@@ -9,7 +9,10 @@
         }
     ],
     "autoload":{
-      "psr-4":{"xmlobjects\\":"xmlobjects/"}
+      "psr-4":{"xmlobjects\\":"xmlobjects/"},
+      "files":[
+        "XMLGenerator.php"
+      ]
     },
     "require": {}
 }
