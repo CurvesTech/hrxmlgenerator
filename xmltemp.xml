@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PositionOpening>
+    <PositionRecordInfo>
+        <Id idOwner="BrightOwl">1</Id>
+        <Status validFrom="2014-04-19" validTo="2014-05-15">Active</Status>
+    </PositionRecordInfo>
+    <PositionSupplier>
+        <SupplierId idOwner="BrightOwl">
+            <IdValue>2</IdValue>
+        </SupplierId>
+        <EntityName>Microsoft</EntityName>
+        <ContactMethod>
+            <InternetEmailAddress>mubashir.abbas@outlook.com</InternetEmailAddress>
+        </ContactMethod>
+    </PositionSupplier>
+    <PositionProfile>
+        <PositionDateInfo>
+            <StartDate>2014-04-01</StartDate>
+            <ExpectedEndDate>2015-05-05</ExpectedEndDate>
+        </PositionDateInfo>
+        <Organization>
+            <OrganizationName>Microsoft</OrganizationName>
+            <ContactInfo>
+                <ContactMethod>
+                    <PostalAddress>
+                        <CountryCode>PK</CountryCode>
+                        <PostalCode>46000</PostalCode>
+                        <Municipality>Lenovo</Municipality>
+                        <DeliveryAddress>
+                            <StreetName>Privet Drive</StreetName>
+                            <BuildingNumber>150</BuildingNumber>
+                        </DeliveryAddress>
+                    </PostalAddress>
+                </ContactMethod>
+            </ContactInfo>
+        </Organization>
+        <PositionDetail>
+            <PositionTitle>Manager</PositionTitle>
+            <FormattedPositionDescription>
+                <Name>Shopping</Name>
+                <Value>You will be shopping for us 24 7.</Value>
+            </FormattedPositionDescription>
+            <FormattedPositionDescription>
+                <Name>Running</Name>
+                <Value>You should run if you can.</Value>
+            </FormattedPositionDescription>
+            <Competency Name="Agreeable"/>
+            <Competency Name="Neuroticst"/>
+        </PositionDetail>
+    </PositionProfile>
+</PositionOpening>

@@ -212,7 +212,7 @@ class XMLGenerator
             $Name = $this->document->createAttribute('Name');
             $Name->value = $competency->getName();
             //add the name to competency.
-            $Competencies[$index]->appendChild($competency);
+            $Competencies[$index]->appendChild($Name);
 
         }
         //Add the Position Title
